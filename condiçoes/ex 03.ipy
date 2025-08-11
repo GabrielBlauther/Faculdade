@@ -1,0 +1,7 @@
+distancia = float(input('Quantos km pretende fazer? '))
+if distancia <= 200:
+    perto = distancia * 0.50 
+    print (f'O valor a ser pago sera de {perto}R$')
+else:
+    longe = distancia * 0.45 
+    print (f'O valor a sera pago sera de {longe}R$')

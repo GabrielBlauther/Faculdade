@@ -1,0 +1,8 @@
+velocidade = float(input('Qual foi a velocidade? '))
+limite_velocidade = 80
+if velocidade > limite_velocidade:
+    execesso_velocidade = velocidade - limite_velocidade
+    multa = execesso_velocidade * 7 
+    print(f'você foi multado e o valor foi de: {multa}R$')
+else: 
+    print ('Vc não foi multado!')

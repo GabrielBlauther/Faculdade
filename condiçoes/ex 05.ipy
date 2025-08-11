@@ -1,0 +1,18 @@
+produto = (input('Qual o produto: '))
+categoria = (input('Qual a categoria: '))
+estoque = int(input('Qntd em estoque: '))
+if produto and categoria and estoque: 
+    if categoria == 'bebida': 
+        if estoque < 75: 
+            print (f'O estoque esta baixo!, solicitar a equipe de compras estoque:{estoque}')
+    
+    elif categoria == 'alimento':
+        if estoque < 50:
+            print (f'O estoque esta baixo!, solicitar a equipe de compras estoque:{estoque}')
+    
+    elif categoria == 'limpeza': 
+        if estoque < 30:
+            print(f'O estoque esta baixo!, solicitar a equipe de compras estoque:{estoque}') 
+else:
+    print('ok!')
+
