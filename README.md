@@ -1,1 +1,1 @@
-# Aqui guardarei os exercicios e meu projetos da UCS
+# Aqui guardarei os exercicios e meus projetos da UCS
