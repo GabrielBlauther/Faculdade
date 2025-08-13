@@ -6,15 +6,18 @@ comprimento da aresta do cubo.
 */
 
 #include <stdio.h>
+#include <math.h>
 
 int main(){
-  int volume, area;
+  int volume, aresta, area;
 
-  printf("Digite o valor do volume do cubo: ");
-  scanf("%d",&volume);
+  printf("Digite o valor da aresta: ");
+  scanf("%d",&aresta);
 
-  printf("Digite o valor da area: ");
-  scanf("%d",&area);
+  volume = pow(aresta,3);
+  area = pow(aresta,6);
 
+  printf("Area do cubo eh %d e o volume eh %d",area,volume);
 
+  return 0;
 }
