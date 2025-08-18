@@ -13,10 +13,10 @@ int main(){
   float raio,pi,area;
 
   printf("Digite o numero do raio: ");
-  scanf("%d",&raio);
+  scanf("%f",&raio);
 
   pi=3.14159;
   area=pi*pow(raio,2);
 
-  printf("Area do circulo:%d",area);
+  printf("Area do circulo:%.2f",area);
 }
