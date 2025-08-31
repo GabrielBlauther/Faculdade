@@ -32,11 +32,11 @@ int main(){
   horarioEntrada= ((horarioEntrada / 100)*60)+(horarioEntrada%100);
   horarioSaida= ((horarioSaida / 100)*60)+(horarioSaida%100);
 
-  horaFinal = horarioEntrada+horarioSaida;
+  horaFinal = horarioEntrada-horarioSaida;
 
   if(horaFinal < 15){
     printf("Categoria: Curta");
-  }else if(horaFinal <= 15 && horaFinal >= 60){
+  }else if(horaFinal >= 15 && horaFinal >= 60){
     printf("Categoria: Moderada");
   }else if(horaFinal >=61 && horaFinal <= 90){
     printf("Categoria: Longa");
