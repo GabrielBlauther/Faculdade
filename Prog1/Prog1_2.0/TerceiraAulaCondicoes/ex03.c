@@ -23,7 +23,5 @@ int main(){
       aux = n1; n1 = n2; n2 = aux;
   }
 
-
  printf("Ordem crescente: %d, %d e %d",n1,n2,n3);
-
 }
