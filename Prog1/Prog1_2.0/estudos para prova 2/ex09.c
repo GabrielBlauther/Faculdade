@@ -25,4 +25,4 @@ int main(){
             printf("%d - %d ",i,gemeo);
         }
     }
-}
+} 
