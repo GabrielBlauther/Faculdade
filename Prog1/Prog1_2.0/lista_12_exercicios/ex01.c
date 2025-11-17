@@ -7,20 +7,21 @@ o vetor no final
 
 int main(){
 
-  int vetor[10],i,j,trocontcholas,aux;
+  int vetor[10],i,j,trocou,aux;
 
   for(i=0;i<10;i++){
-    printf("Digite o numero do %dº vetor",i+1);
+    printf("Digite o numero do %dº vetor: ",i+1);
+    scanf("%d",&vetor[i]);
   }
-  trocontcholas=1;
-  while(trocontcholas==1){
-    trocontcholas=1;
-  for(j=0;j<10;j++){
-      if(vetor[i]>vetor[i+1]){
-        aux=vetor[i];
-        vetor[i]=vetor[i+1];
-        vetor[i+1]=aux;
-        trocontcholas=1;
+  trocou=1;
+  while(trocou==1){
+    trocou=0;
+    for(j=0;j<9;j++){
+      if(vetor[j]>vetor[j+1]){
+        aux=vetor[j];
+        vetor[j]=vetor[j+1];
+        vetor[j+1]=aux;
+        trocou=1;
       }
     }
   }
