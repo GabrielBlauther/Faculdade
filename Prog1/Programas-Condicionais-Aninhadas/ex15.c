@@ -41,7 +41,7 @@ int main(){
     aux = n2;
     n2 = n4;
     n4 = aux;
-  }if(n3 < n4){
+  }if(n3 > n4){
     aux = n3;
     n3 = n4;
     n4 = aux;
