@@ -10,6 +10,8 @@ int main(){
   int vetor[10],i ,j ,maior=0,aux,cont=0;
 
   for(i=0;i<10;i++){
+
+
     printf("Digite um numero: ");
     scanf("%d",&vetor[i]);
     if(vetor[i]>maior){
