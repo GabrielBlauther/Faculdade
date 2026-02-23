@@ -53,7 +53,6 @@ int main(){
       cont++;
     }
   }
-  printf("%d",achou);
   printf("Alunos não matriculados em ambas materias:\n");
   for(i=0;i<cont;i++){
     printf("%d ",naomatriculados[i]);
