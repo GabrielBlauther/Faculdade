@@ -24,7 +24,7 @@ int main(void)
       }
       else
       {
-        printf("%d  1", M[i][j]);
+        printf("%d  ", M[i][j]);
 
       }
     }
