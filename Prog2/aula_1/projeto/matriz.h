@@ -41,14 +41,12 @@ void imprimirMatriz(int m[LIN][COL])
 {
     int i, j;
     for(i = 0; i < LIN; i ++ ){
-            for(j = 0; j < COL; j ++ )
-            {
-            if(m[i][j] < 10){
-                printf("%d   ", m[i][j]);
-            }
-            }
-            printf("\n");
+        for(j = 0; j < COL; j ++ )
+        {
+            printf("%d   ", m[i][j]);
         }
+        printf("\n");
+    }
 }
 
 #endif

@@ -8,7 +8,7 @@ int main(void)
 {
     int m[LIN][COL];
 
-    lerMatriz( m[LIN][COL]);
-    imprimirMatriz(m[LIN][COL]);
-    gerarAleatorio(m[LIN][COL]);
+    lerMatriz(m);
+    imprimirMatriz(m);
+    gerarAleatorio(m);
 }
