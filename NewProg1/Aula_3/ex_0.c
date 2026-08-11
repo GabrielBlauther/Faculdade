@@ -2,6 +2,7 @@
 Dica:O que acontece se o procedimento descrito no exercício V00001800 for executado repetidamente sobre o vetor?*/
 
 #include <stdio.h>
+#define N 5 
 
 int main() {
     int X[10];
