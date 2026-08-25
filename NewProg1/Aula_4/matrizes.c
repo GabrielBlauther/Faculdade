@@ -29,7 +29,7 @@ void escreve_matriz(int m[N][N]){
 int principal(int m[N][N]){
     int s = 0;
 
-    for(int i = 0; i < N; i++){
+    for(int i = 0; i < N - 1 ; i++){
         s += m[i][i];
     }
 
