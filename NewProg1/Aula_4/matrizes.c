@@ -10,7 +10,7 @@ void le_matriz(int m[N][N]){
 
     for(int i = 0; i < N; i++){
         for(int j = 0; j < N; j++){
-            m[i][j] = rand() % 10;
+            m[i][j] = rand() % 10;//func rand traz numero aletorios e usamos o % + num para dizer quantas casas trazer
             /*printf("[%d][%d]: ",i,j);
             scanf("%d", &m[i][j]);*/
         }
@@ -58,7 +58,15 @@ int calcula_valores_acima_diagonal_p(int m[N][N]){
     return soma;
 }
 /*---------------------------*/
-
+int calcula_valores_abaixo_diagonal_p(int m[N][N]){
+    int soma = 0;
+    for(int i = 2 ; i < N; i++){
+        for ( int j = i -1; j < N; j++){
+            soma += m[i][j];
+        }
+    }
+    return soma;
+}
 int main(){
     int m[N][N];
 
@@ -67,6 +75,8 @@ int main(){
     printf("\nSoma da principal: %d ",principal(m));
     printf("\nSoma da secundaria: %d\n ",secundaria(m));
     printf("\nSoma dos valores da parte de cima da diagonal superior: %d\n ",calcula_valores_acima_diagonal_p(m));
+    printf("\nSoma dos valores da parte de baixo da diagonal superior: %d\n ",calcula_valores_abaixo_diagonal_p(m));
+
 
 
 }
