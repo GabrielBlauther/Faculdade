@@ -25,7 +25,9 @@ void le_matriz(int m[N][M]){
 Função inverte_coluna: inverte os valores das colunas
 Observações:
 - Tive alguns problemas para identificar como saber quantas vezes trocar as posições porque ela deve funcionar para todas as variantes.
-- A solução foi mudar até aonde vai o for das linhas para M - 1 pois se temos uma linha com 3 valores queremos fazer duas trocas 
+- para entender precisaos trocar o primeiro com o ultimo o segundo com o penultimo ...
+- não precisei me preocupar com colunas com total de valores impares pois no número impar ela troca de posição consigo mesmo
+- o pulo do gato foi usar o valor total da linha - 1 pois a posição começa de 0 e depois diminuir pelo valor de J para fazer a contagem regressiva
 */
 void inverte_coluna (int m[N][M]){
     int aux,i,j,t;
