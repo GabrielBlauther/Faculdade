@@ -8,8 +8,8 @@
       "args": [],
       "stopAtEntry": false,
       "externalConsole": false,
-      "cwd": "/workspaces/Faculdade/Prog2/aula_0",
-      "program": "/workspaces/Faculdade/Prog2/aula_0/build/Debug/outDebug",
+      "cwd": "/workspaces/Faculdade/NewProg1/exercicios/matriz",
+      "program": "/workspaces/Faculdade/NewProg1/exercicios/matriz/build/Debug/outDebug",
       "MIMode": "gdb",
       "miDebuggerPath": "gdb",
       "setupCommands": [
