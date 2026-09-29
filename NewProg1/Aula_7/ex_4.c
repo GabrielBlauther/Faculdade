@@ -6,13 +6,10 @@
 #define N 100
 
 int tamanho(char str[N]){
-    int cont=0;
+    int i, cont=0;
 
-    for(int i = 0; str[i] != 0; i++){
-        cont ++;
-    }
-
-    return cont;
+    for( i = 0; str[i] != 0; i++);
+    return i;
 }
 
 int main(){
