@@ -12,13 +12,21 @@ int tamanho(char str[N]){
     for( i = 0; str[i]; i++);
     return i;
 }
+/*--------------------------------*/
+char minusculo(char c){
+    if(c>= 'A' && c<= 'Z'){
+        c+=32;
+    }
+    return c;
 
+}
 /*--------------------------------*/
 int palindrome(char str[N]){
     int i, f;
 
     for(i=0, f=tamanho(str) - 1; i<f ;i++,f--){ // usamos a função tamanho para pode iniciar o F pelo tamanho da string -1 para tirar o "\0'"
-        if(str[i] != str[f]){ // Comparamos as duas se forem diferentes não é um palidromo
+    
+        if(minusculo(str[i]) != minusculo(str[f])){ // Comparamos as duas se forem diferentes não é um palidromo
             return 0;
         }
     }
