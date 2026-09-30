@@ -11,3 +11,6 @@ Ex:
 
 128 64 32 16 8 4 2 1
 0 1 _0_ 0 0 0 1 1 = A
+
+Como converter um caracter de número para numero ( '1' -> 1 ), fazemos o calculo pela tabela ascii diminuimos o valor do caracter por 48 por exemplo o 9 é 57 se diminuirmos por 48 temos o 9 novamente, e o 48 é igual ao caracter '0' então podemos fazer o seguinte sti[i] - '0' ( ele pega o valor que ta neste local do vetor e diminui por 48 e isso retorna o número ao invés do caracter do número.)
+este exemplo esta no primeira parte da aula 8
