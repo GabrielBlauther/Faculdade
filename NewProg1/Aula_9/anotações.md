@@ -26,3 +26,17 @@ em uma string não usamos o & pois não é um tipo primitivo
 Decimal para binário, é feito consecutivas divisões por 10 e pegamos o resto para montar o binario, o binario é o resultado ao contrario do resultado da divisão.
 
 exercicios para fazer 17 e 19;
+
+Segunda parte (structs):
+são tipos de dados como int ou float mas criadas por nós
+
+    //neste modo manual assim copiamos campo a campo a struct
+    h2.hora = h1.hora;
+    h2.minuto = h1.minuto;
+    h2.segundo = h1.segundo;
+
+    //Neste modo copiamos toda a struct
+
+    h2 = h1;
+
+prova estudar conversão e criação de strings
