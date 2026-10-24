@@ -8,10 +8,14 @@
       "args": [],
       "stopAtEntry": false,
       "externalConsole": false,
-      "cwd": "/workspaces/Faculdade/NewProg1/exercicios/matriz",
-      "program": "/workspaces/Faculdade/NewProg1/exercicios/matriz/build/Debug/outDebug",
+      "cwd": "${fileDirname}",
+      "program": "${fileDirname}/${fileBasenameNoExtension}.exe",
+      "preLaunchTask": "C/C++: gcc arquivo de build ativo",
+      "environment": [
+        { "name": "PATH", "value": "C:/msys64/ucrt64/bin;${env:PATH}" }
+      ],
       "MIMode": "gdb",
-      "miDebuggerPath": "gdb",
+      "miDebuggerPath": "C:/msys64/ucrt64/bin/gdb.exe",
       "setupCommands": [
         {
           "description": "Enable pretty-printing for gdb",

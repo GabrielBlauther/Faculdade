@@ -3,16 +3,19 @@
     {
       "type": "cppbuild",
       "label": "C/C++: gcc arquivo de build ativo",
-      "command": "/usr/bin/gcc",
+      "command": "C:/msys64/ucrt64/bin/gcc.exe",
       "args": [
         "-fdiagnostics-color=always",
         "-g",
         "${file}",
         "-o",
-        "${fileDirname}/${fileBasenameNoExtension}"
+        "${fileDirname}/${fileBasenameNoExtension}.exe"
       ],
       "options": {
-        "cwd": "${fileDirname}"
+        "cwd": "${fileDirname}",
+        "env": {
+          "PATH": "C:/msys64/ucrt64/bin;${env:PATH}"
+        }
       },
       "problemMatcher": [
         "$gcc"
