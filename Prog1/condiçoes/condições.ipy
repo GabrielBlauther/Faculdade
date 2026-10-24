@@ -1,9 +1,0 @@
-nome = str(input(
-    
-    
-    
-    'Olá qual seu nome? '))
-if nome == 'Gabriel':
-    print('meu chefe gostosão ')
-else: 
-    print('só dou boa noite pro meu chefe')

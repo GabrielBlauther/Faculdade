@@ -1,8 +1,0 @@
-import random
-numero_aleatorio = random.randint (0, 5)
-while True:
-    numero = float(input ('digite um numero: '))
-    if numero == numero_aleatorio:
-        print('Parabés vc acertou!')
-    else:
-        print('Vc errou! tente novamente')
