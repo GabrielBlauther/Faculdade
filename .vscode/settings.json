@@ -1,4 +1,16 @@
 {
+  "files.encoding": "utf8",
+  "terminal.integrated.profiles.windows": {
+    "PowerShell UTF-8": {
+      "path": "${env:windir}\\System32\\WindowsPowerShell\\v1.0\\powershell.exe",
+      "args": [
+        "-NoExit",
+        "-Command",
+        "[Console]::InputEncoding = [Console]::OutputEncoding = $OutputEncoding = [System.Text.UTF8Encoding]::new()"
+      ]
+    }
+  },
+  "terminal.integrated.defaultProfile.windows": "PowerShell UTF-8",
   "c-cpp-compile-run.c-compiler": "C:\\msys64\\ucrt64\\bin\\gcc.exe",
   "c-cpp-compile-run.cpp-compiler": "C:\\msys64\\ucrt64\\bin\\g++.exe",
   "c-cpp-compile-run.run-in-external-terminal": false,
