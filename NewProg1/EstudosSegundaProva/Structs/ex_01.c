@@ -51,7 +51,7 @@ void escreve_vetor(EVENTO eventos[N]){
     int i;
 
     for(i=0;i < N;i++){
-        printf("%dº %s às %02d:%02d" ,i , eventos[i], eventos[i].tempo.hora,eventos[i].tempo.minuto);
+        printf("%dº %s às %02d:%02d" ,i , eventos[i].descricao, eventos[i].tempo.hora,eventos[i].tempo.minuto);
     }
 }
 
