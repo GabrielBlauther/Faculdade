@@ -20,7 +20,7 @@ void calc(HORARIO h1, int qtd, HORARIO *h2){
     (*h2).m = total % 60;
     */
    //existem estas duas formas
-    h2->h = (total / 60) % 24;
+    h2->h = (total / 60)  % 24;
     h2->m = total % 60;
 
 }
@@ -29,7 +29,7 @@ void calc(HORARIO h1, int qtd, HORARIO *h2){
 
 int main(){
     
-    HORARIO h1 = {23, 40};
+    HORARIO h1 = {24, 40};
     HORARIO h2;
     int qtd = 30;
 
