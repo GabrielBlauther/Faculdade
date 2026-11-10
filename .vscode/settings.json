@@ -11,8 +11,8 @@
     }
   },
   "terminal.integrated.defaultProfile.windows": "PowerShell UTF-8",
-  "c-cpp-compile-run.c-compiler": "C:\\msys64\\ucrt64\\bin\\gcc.exe",
-  "c-cpp-compile-run.cpp-compiler": "C:\\msys64\\ucrt64\\bin\\g++.exe",
+  "c-cpp-compile-run.c-compiler": "/usr/bin/gcc",
+  "c-cpp-compile-run.cpp-compiler": "/usr/bin/g++",
   "c-cpp-compile-run.run-in-external-terminal": false,
   "terminal.integrated.env.windows": {
     "PATH": "C:/msys64/ucrt64/bin;${env:PATH}"
@@ -55,9 +55,9 @@
     "titleBar.inactiveForeground": "#e7e7e799"
   },
   "peacock.color": "#007fff",
-  "C_Cpp_Runner.cCompilerPath": "C:/msys64/ucrt64/bin/gcc.exe",
-  "C_Cpp_Runner.cppCompilerPath": "C:/msys64/ucrt64/bin/g++.exe",
-  "C_Cpp_Runner.debuggerPath": "C:/msys64/ucrt64/bin/gdb.exe",
+  "C_Cpp_Runner.cCompilerPath": "/usr/bin/gcc",
+  "C_Cpp_Runner.cppCompilerPath": "/usr/bin/g++",
+  "C_Cpp_Runner.debuggerPath": "/usr/bin/gdb",
   "C_Cpp_Runner.cStandard": "",
   "C_Cpp_Runner.cppStandard": "",
   "C_Cpp_Runner.msvcBatchPath": "",
