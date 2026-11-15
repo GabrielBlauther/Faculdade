@@ -1,14 +1,14 @@
 {
   "configurations": [
     {
-      "name": "linux-gcc-x64",
+      "name": "windows-gcc-x64",
       "includePath": [
         "${workspaceFolder}/**"
       ],
-      "compilerPath": "/usr/bin/gcc",
+      "compilerPath": "C:/Users/gabribla/AppData/Local/Microsoft/WinGet/Packages/BrechtSanders.WinLibs.POSIX.UCRT_Microsoft.Winget.Source_8wekyb3d8bbwe/mingw64/bin/gcc.exe",
       "cStandard": "${default}",
       "cppStandard": "${default}",
-      "intelliSenseMode": "linux-gcc-x64",
+      "intelliSenseMode": "windows-gcc-x64",
       "compilerArgs": []
     }
   ],
