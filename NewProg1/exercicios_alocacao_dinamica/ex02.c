@@ -32,6 +32,5 @@ char *aleatoria(int n){
 
 int main(){
     char *str= aleatoria(18);
-
     printf("%s", str);
 }

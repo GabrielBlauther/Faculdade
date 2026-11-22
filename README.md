@@ -2,15 +2,25 @@
 
 ## Ambiente nos três computadores
 
-Use GCC e GDB disponíveis no PATH de cada computador. A instalação pode ficar
-em pastas diferentes: não coloque caminhos pessoais nas configurações do repositório.
-No Windows, adicione a pasta `bin` da instalação GCC/GDB ao PATH do usuário
-(por exemplo, `C:\msys64\ucrt64\bin`). No Linux, instale GCC e GDB pelo
-gerenciador de pacotes da distribuição. Reinicie o VS Code após mudar o PATH.
+O VS Code usa GCC para compilar em C11 e GDB para depurar, buscando os dois no
+`PATH` do ambiente em que o projeto está aberto.
 
-Confira no terminal: `gcc --version` e `gdb --version`.
-As configurações compartilhadas usam C11; versões diferentes do GCC ainda podem
-produzir avisos diferentes. Prefira a mesma versão principal nas três máquinas.
+- **Windows nativo** — use GCC e GDB do mesmo ambiente do MSYS2. Neste
+  computador, ambos já estão em `C:\msys64\ucrt64\bin`. Se houver mais de
+  uma instalação, confira a ordem com `where.exe gcc` e `where.exe gdb`.
+- **Linux nativo** — instale GCC e GDB pelo gerenciador de pacotes da distribuição.
+- **GitHub Codespaces** — o repositório define um Dev Container com Ubuntu
+  24.04, GCC e GDB. Em um Codespace já criado, execute
+  **Codespaces: Rebuild Container** depois de receber essa configuração.
+
+Para usar o mesmo ambiente Linux do Codespaces nos dois PCs, abra o projeto
+com **Dev Containers: Reopen in Container** no VS Code, com Docker e a extensão
+Dev Containers instalados. Em modo nativo, as versões de GCC podem variar.
+
+Confira as versões com `gcc --version` e `gdb --version`. Reinicie o VS Code
+após mudar o `PATH`. Se o IntelliSense escolher outro compilador, configure
+`C_Cpp.default.compilerPath` nas configurações de usuário do VS Code com o
+caminho do GCC da máquina.
 
 ## Compilar e depurar
 

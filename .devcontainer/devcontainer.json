@@ -1,0 +1,9 @@
+{
+  "name": "Faculdade C",
+  "image": "mcr.microsoft.com/devcontainers/cpp:noble",
+  "customizations": {
+    "vscode": {
+      "extensions": ["ms-vscode.cpptools"]
+    }
+  }
+}

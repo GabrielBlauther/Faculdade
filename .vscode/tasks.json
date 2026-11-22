@@ -1,7 +1,7 @@
 {
   "tasks": [
     {
-      "type": "cppbuild",
+      "type": "process",
       "label": "C/C++: gcc arquivo de build ativo",
       "command": "gcc",
       "args": [
@@ -22,7 +22,6 @@
         "kind": "build",
         "isDefault": true
       },
-      "detail": "Tarefa gerada pelo Depurador.",
       "windows": {
         "args": [
           "-fdiagnostics-color=always",
