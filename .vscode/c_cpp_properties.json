@@ -1,12 +1,16 @@
 {
   "configurations": [
     {
-      "name": "C11",
+      "name": "Win32 GCC",
+      "compilerPath": "C:/Users/gsblauther/AppData/Local/Microsoft/WinGet/Packages/BrechtSanders.WinLibs.POSIX.UCRT_Microsoft.Winget.Source_8wekyb3d8bbwe/mingw64/bin/gcc.exe",
       "includePath": [
-        "${workspaceFolder}/**"
+        "${workspaceFolder}/**",
+        "C:/Users/gsblauther/AppData/Local/Microsoft/WinGet/Packages/BrechtSanders.WinLibs.POSIX.UCRT_Microsoft.Winget.Source_8wekyb3d8bbwe/mingw64/include",
+        "C:/Users/gsblauther/AppData/Local/Microsoft/WinGet/Packages/BrechtSanders.WinLibs.POSIX.UCRT_Microsoft.Winget.Source_8wekyb3d8bbwe/mingw64/x86_64-w64-mingw32/include",
+        "C:/Users/gsblauther/AppData/Local/Microsoft/WinGet/Packages/BrechtSanders.WinLibs.POSIX.UCRT_Microsoft.Winget.Source_8wekyb3d8bbwe/mingw64/lib/gcc/x86_64-w64-mingw32/16.2.0/include"
       ],
       "cStandard": "c11",
-      "cppStandard": "${default}"
+      "intelliSenseMode": "windows-gcc-x64"
     }
   ],
   "version": 4
