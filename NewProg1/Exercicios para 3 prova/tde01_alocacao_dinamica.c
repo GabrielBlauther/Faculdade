@@ -57,7 +57,10 @@ int main(){
     }
     int *vet_int = separa(str);
 
-    for(i=0; i< cont; i++){
-        printf("%d\n",vet_int[i]);
+    if(vet_int){
+        for(i=0; i< cont; i++){
+            printf("%d\n",vet_int[i]);
+        }
+        free(vet_int);
     }
 }
